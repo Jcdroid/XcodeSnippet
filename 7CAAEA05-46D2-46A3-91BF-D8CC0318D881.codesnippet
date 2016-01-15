@@ -4,20 +4,24 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-            });</string>
+	<string>
+	&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+	&lt;dict&gt;
+		&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+		&lt;true/&gt;
+	&lt;/dict&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4F42BD32-BF2E-40BA-B249-49775BD449B8</string>
+	<string>7CAAEA05-46D2-46A3-91BF-D8CC0318D881</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.XML</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JC Dispatch After</string>
+	<string>JC Https Error</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
