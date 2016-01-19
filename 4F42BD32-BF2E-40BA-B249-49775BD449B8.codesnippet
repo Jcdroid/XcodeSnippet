@@ -7,8 +7,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-            });</string>
+	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 3 * NSEC_PER_SEC), dispatch_get_main_queue(), &lt;#^(void)block#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4F42BD32-BF2E-40BA-B249-49775BD449B8</string>
 	<key>IDECodeSnippetLanguage</key>

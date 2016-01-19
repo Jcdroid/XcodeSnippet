@@ -4,21 +4,23 @@
 <dict>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-	&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
-	&lt;dict&gt;
-		&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
-		&lt;true/&gt;
-	&lt;/dict&gt;</string>
+	<string>+ (instancetype)sharedInstance {
+    static &lt;#ClassName#&gt; *instance;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        instance = [[&lt;#ClassName#&gt; alloc] init];
+    });
+    return instance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7CAAEA05-46D2-46A3-91BF-D8CC0318D881</string>
+	<string>4BBB17C0-09C1-43C1-8FF8-066467D5F272</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.XML</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JC Https Error</string>
+	<string>JC Share Instance</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
