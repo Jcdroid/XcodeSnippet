@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JCPod</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>platform :ios, '7.0'
+
+pod 'AFNetworking', '~&gt; 2.5.4'
+pod 'SDWebImage', '~&gt; 3.7.3'
+pod 'Masonry', '~&gt; 0.6.4'
+pod 'JSONModel', '~&gt; 1.1.0'
+pod 'ReactiveCocoa', '2.5'
+pod 'MBProgressHUD', '~&gt; 0.9.1'
+pod 'libextobjc'
+
+target :'Remay-iOSTests', :exclusive =&gt; true do
+
+pod 'Specta', '~&gt; 0.2.1'
+pod 'Expecta', '~&gt; 0.2'
+pod 'OCMock', '~&gt; 2.2.2'
+
+end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C6442EF2-B088-4128-8DAD-E0378C3D8F14</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Ruby</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JC Pod File</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
