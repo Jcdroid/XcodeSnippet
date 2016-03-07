@@ -15,7 +15,7 @@
     return &lt;#section count#&gt;;
 }
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return &lt;#根据section计算对应的count#&gt;;
 }
 

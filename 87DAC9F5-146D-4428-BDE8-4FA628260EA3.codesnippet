@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JCTabbar</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// Master Controller
+    UINavigationController *&lt;#nav1#&gt; = [[UINavigationController alloc] initWithRootViewController:[[UIViewController alloc] init]];
+    nav1.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"主页" image:nil tag:0];
+    
+    // Setting Controller
+    UINavigationController *&lt;#nav2#&gt; = [[UINavigationController alloc] initWithRootViewController:[[UIViewController alloc] init]];
+    nav2.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"设置" image:nil tag:1];
+    
+    self.viewControllers = @[&lt;#nav1#&gt;, &lt;#nav2#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>87DAC9F5-146D-4428-BDE8-4FA628260EA3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JC Tabbar</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
