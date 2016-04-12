@@ -38,8 +38,16 @@
     return 18;// 可以设置其他值
 }
 
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    return [UIView new];
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
-    return 1;// 为0时不会起作用，这里最少为1
+    return 18;// 可以设置其他值
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    return [UIView new];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B6290882-2306-4767-8E25-E7E562BB9BC5</string>

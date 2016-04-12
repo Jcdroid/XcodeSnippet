@@ -16,7 +16,7 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithIdentifier:&lt;#(nonnull NSString *)#&gt; forIndexPath:&lt;#(nonnull NSIndexPath *)#&gt;];
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:&lt;#(nonnull NSString *)#&gt; forIndexPath:&lt;#(nonnull NSIndexPath *)#&gt;];
     return cell;
 }
 

@@ -3,24 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JCInitVariable</string>
+	<string>JCBlock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#Class#&gt; *)&lt;#variable#&gt; {
-    if(!_&lt;#variable#&gt;) {
-        _&lt;#variable#&gt; = [&lt;#Class#&gt; new];
-    }
-    return _&lt;#variable#&gt;;
-}</string>
+	<string>@property (copy, nonatomic) void(^&lt;#block#&gt;)(&lt;#ParamClass#&gt; *&lt;#param#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>74C62538-CCD7-4DB4-9767-860022821F8C</string>
+	<string>4A0D55A3-DFAE-4750-9D14-709B7AD8A183</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JC Init Variable</string>
+	<string>JC Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
