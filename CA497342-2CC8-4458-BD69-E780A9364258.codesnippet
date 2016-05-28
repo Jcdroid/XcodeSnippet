@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JCBlock</string>
+	<string>JCBlockProperty</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef void(^&lt;#BlockName#&gt;)(&lt;#SelfClass#&gt; *&lt;#class#&gt;, &lt;#Params#&gt; *&lt;#param#&gt;, &lt;#...#&gt;);</string>
+	<string>@property (copy, nonatomic) &lt;#BlockName#&gt; &lt;#block#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>26993DDF-82FE-4013-8032-53AF3AB2C4D0</string>
+	<string>CA497342-2CC8-4458-BD69-E780A9364258</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JC Block</string>
+	<string>JC Block Property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
