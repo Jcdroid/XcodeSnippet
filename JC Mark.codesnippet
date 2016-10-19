@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JCBlock</string>
+	<string>JCMark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy, nonatomic) void(^&lt;#block#&gt;)(&lt;#ParamClass#&gt; *&lt;#param#&gt;);</string>
+	<string>#pragma mark - public method
+
+#pragma mark - private method
+
+#pragma mark - getters &amp;&amp; setters</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4A0D55A3-DFAE-4750-9D14-709B7AD8A183</string>
+	<string>71DBC63D-291F-43A9-BB47-D8697B3805A3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JC Block</string>
+	<string>JC Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -27,7 +27,7 @@
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
     UICollectionReusableView *reusableView = nil;
     
-    if (kind == UICollectionElementKindSectionHeader) {
+    if ([kind isEqualToString:UICollectionElementKindSectionHeader]) {
         reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:&lt;#Identifier#&gt; forIndexPath:indexPath];
     }
     
