@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1.0]</string>
+	<string>[UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1.0]</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>27FFF243-9278-483C-BA3C-BDFDB934A405</string>
 	<key>IDECodeSnippetLanguage</key>

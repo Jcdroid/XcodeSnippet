@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JCMark</string>
+	<string>JCDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - public method
-
-#pragma mark - private method
-
-#pragma mark - getters &amp;&amp; setters</string>
+	<string>if (self.delegate &amp;&amp; [self.delegate respondsToSelector:@selector(&lt;#method#&gt;:)]) {
+        [self.delegate &lt;#method#&gt;];
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>71DBC63D-291F-43A9-BB47-D8697B3805A3</string>
+	<string>3288ECC3-E6D8-493C-A823-641A97A3A83D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JC Mark</string>
+	<string>JC Delegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
